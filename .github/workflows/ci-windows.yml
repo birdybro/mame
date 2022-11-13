@@ -2,6 +2,8 @@ name: CI (Windows)
 
 on:
   push:
+    branches:
+      - "patch-2"
     paths:
     - '.github/**'
     - '3rdparty/**'
